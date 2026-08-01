@@ -1,10 +1,8 @@
 name: Deploy catalog to GitHub Pages
 
-# Pages is currently set to "Deploy from a branch" in the repo settings, so
-# GitHub's built-in pages-build-deployment workflow publishes the site on every
-# push and this workflow is manual-only. If the Pages source is ever switched
-# to "GitHub Actions", re-add a push trigger here.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
