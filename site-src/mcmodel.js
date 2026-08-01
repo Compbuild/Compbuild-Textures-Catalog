@@ -14,7 +14,23 @@ export class ModelRepo {
     this.animated = animatedSet || new Set();
     this.modelCache = new Map();
     this.textureCache = new Map();
+    this.animators = []; // live animated textures, advanced by tick()
     this.loader = new THREE.TextureLoader();
+  }
+
+  // Advance animated textures; called once per rendered frame with ms elapsed.
+  tick(dt) {
+    for (const a of this.animators) {
+      a.acc += dt;
+      const frameMs = (a.frames[a.i]?.time ?? a.frametime) * 50; // ticks → ms
+      if (a.acc < frameMs) continue;
+      a.acc = 0;
+      a.i = (a.i + 1) % a.frames.length;
+      const idx = a.frames[a.i].index;
+      a.ctx.clearRect(0, 0, a.w, a.w);
+      a.ctx.drawImage(a.img, 0, idx * a.w, a.w, a.w, 0, 0, a.w, a.w);
+      a.texture.needsUpdate = true;
+    }
   }
 
   stripNs(ref) { return ref.startsWith('minecraft:') ? ref.slice(10) : ref; }
@@ -91,10 +107,33 @@ export class ModelRepo {
       let { width: w, height: h } = img;
       let source = img;
       if (this.animated.has(path) && h > w && h % w === 0) {
+        // Animated texture: draw frames into a canvas and keep it advancing.
         const c = document.createElement('canvas');
         c.width = w; c.height = w;
-        c.getContext('2d').drawImage(img, 0, 0, w, w, 0, 0, w, w);
+        const ctx = c.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, w, 0, 0, w, w);
         source = c; h = w;
+        let meta = {};
+        try {
+          const res = await fetch(`${this.base}/textures/${path}.png.mcmeta`);
+          if (res.ok) meta = (await res.json()).animation || {};
+        } catch { /* default timing */ }
+        const total = img.height / w;
+        const rawFrames = meta.frames && meta.frames.length
+          ? meta.frames : Array.from({ length: total }, (_, i) => i);
+        const frames = rawFrames
+          .map(f => typeof f === 'number' ? { index: f } : { index: f.index, time: f.time })
+          .filter(f => f.index < total);
+        if (frames.length > 1) {
+          const t2 = new THREE.CanvasTexture(c);
+          t2.magFilter = t2.minFilter = THREE.NearestFilter;
+          t2.colorSpace = THREE.SRGBColorSpace;
+          this.animators.push({
+            img, ctx, w, frames, i: 0, acc: 0,
+            frametime: meta.frametime || 2, texture: t2,
+          });
+          return { texture: t2, width: w, height: w };
+        }
       }
       const t = new THREE.Texture(source);
       t.magFilter = t.minFilter = THREE.NearestFilter;

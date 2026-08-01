@@ -47,6 +47,27 @@ function modelThumb(modelId, fallbackBase) {
 
 function badge(text, cls = '') { return h('span', { class: 'badge ' + cls }, text); }
 
+// Render a card grid incrementally so even the full 1,792-model list stays snappy.
+function incrementalGrid(items, renderCard, cls = 'grid', batch = 120) {
+  const grid = h('div', { class: cls });
+  let i = 0;
+  const sentinel = h('div', { class: 'sentinel' });
+  const renderBatch = () => {
+    const frag = document.createDocumentFragment();
+    for (const end = Math.min(i + batch, items.length); i < end; i++) {
+      const card = renderCard(items[i]);
+      if (card) frag.append(card);
+    }
+    grid.insertBefore(frag, sentinel);
+    if (i >= items.length) { obs.disconnect(); sentinel.remove(); }
+  };
+  const obs = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) renderBatch(); }, { rootMargin: '600px' });
+  grid.append(sentinel);
+  renderBatch();
+  obs.observe(sentinel);
+  return grid;
+}
+
 function titleCase(s) {
   return s.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
@@ -54,17 +75,50 @@ function titleCase(s) {
 function ensureViewer(canvas) {
   if (viewer) viewer.dispose();
   viewer = new Viewer(canvas);
+  viewer.onTick = dt => repo.tick(dt);
   return viewer;
 }
 
-async function show3D(canvas, modelId, opts = {}) {
-  const v = ensureViewer(canvas);
+function viewerBox() {
+  // canvas + overlay control bar, shared by every 3D detail view
+  const canvas = h('canvas', {});
+  const btn = (label, title, fn, cls = '') =>
+    h('button', { class: 'vbtn ' + cls, title, onclick: e => { e.preventDefault(); fn(e.currentTarget); } }, label);
+  let gridOn = true;
+  const rotBtn = btn('⟳', 'Auto-rotate on/off', () => viewer && viewer.setAutoRotate(!viewer.controls.autoRotate), 'active');
+  const bar = h('div', { class: 'vctrl' },
+    rotBtn,
+    btn('＋', 'Zoom in', () => viewer && viewer.zoom(0.8)),
+    btn('－', 'Zoom out', () => viewer && viewer.zoom(1.25)),
+    btn('▦', 'Toggle floor grid', b => { gridOn = !gridOn; viewer && viewer.setGrid(gridOn); b.classList.toggle('active', gridOn); }, 'active'),
+    btn('⌖', 'Reset view', () => viewer && viewer.resetView()),
+    btn('⛶', 'Fullscreen', () => {
+      const box = canvas.parentElement;
+      if (document.fullscreenElement) document.exitFullscreen();
+      else box.requestFullscreen && box.requestFullscreen();
+    }),
+  );
+  const hint = h('div', { class: 'vhint' }, 'drag to rotate · scroll to zoom');
+  const box = h('div', { class: 'viewerbox' }, canvas, bar, hint);
+  setTimeout(() => hint.classList.add('fade'), 3500);
+  box._initViewer = () => {
+    const v = ensureViewer(canvas);
+    v.setGrid(gridOn);
+    v.onAutoRotateChange = on => rotBtn.classList.toggle('active', on);
+    return v;
+  };
+  return box;
+}
+
+async function show3D(box, modelId, opts = {}) {
+  const canvas = box.querySelector('canvas');
+  const v = viewer && viewer.canvas === canvas ? viewer : box._initViewer();
   try {
     const mesh = await repo.buildMesh(modelId, opts);
     v.show(mesh);
   } catch (e) {
     console.error('render failed', modelId, e);
-    canvas.parentElement.append(h('p', { class: 'err' }, `Could not render ${modelId}`));
+    box.append(h('p', { class: 'err' }, `Could not render ${modelId}`));
   }
 }
 
@@ -134,14 +188,14 @@ function viewBlocks(view, filterCat) {
   view.append(h('h1', {}, 'Blocks'), chipRow(cats, filterCat, c => `#/blocks${c ? '/cat/' + encodeURIComponent(c) : ''}`));
   const list = M.blocks.filter(b => !filterCat || b.category === filterCat)
     .sort((a, b) => a.id.localeCompare(b.id));
-  view.append(h('div', { class: 'grid' }, list.map(b => {
+  view.append(incrementalGrid(list, b => {
     const model = b.variants[0] && b.variants[0].models[0] && b.variants[0].models[0].model;
     return h('a', { class: 'card', href: `#/block/${encodeURIComponent(b.id)}` },
       model ? modelThumb(model, 'block/' + b.id) : h('div', { class: 'thumb' }),
       h('h3', {}, titleCase(b.id)),
       h('p', {}, badge(b.category), b.retexture ? badge('retexture', 'dim') : null,
         b.variants.length > 1 ? badge(`${b.variants.length} variants`, 'dim') : null));
-  })));
+  }));
 }
 
 function chipRow(cats, active, hrefFor) {
@@ -162,21 +216,21 @@ function viewBlock(view, id) {
     h('h1', {}, titleCase(b.id)),
     h('p', {}, badge(b.category), b.retexture ? badge('retexture — vanilla model, Compbuild textures', 'dim') : null));
 
-  const canvasWrap = h('div', { class: 'viewerbox' }, h('canvas', {}));
-  view.append(canvasWrap);
+  const box = viewerBox();
+  view.append(box);
 
   const variants = b.variants.flatMap(v => v.models.map(mm => ({ state: v.state, ...mm })));
   if (variants.length > 1) {
     const sel = h('select', {
       onchange: e => {
         const v = variants[e.target.value];
-        show3D(canvasWrap.querySelector('canvas'), v.model, { x: v.x, y: v.y });
+        show3D(box, v.model, { x: v.x, y: v.y });
       }
     }, variants.map((v, i) => h('option', { value: i }, `${v.state || 'default'} → ${v.model}`)));
     view.append(h('div', { class: 'row' }, 'Variant: ', sel));
   }
   const first = variants[0];
-  if (first) show3D(canvasWrap.querySelector('canvas'), first.model, { x: first.x, y: first.y });
+  if (first) show3D(box, first.model, { x: first.x, y: first.y });
 
   // related CTM groups (by texture)
   const model = modelById.get(first && first.model);
@@ -204,27 +258,25 @@ function viewModels(view, folder) {
     h('option', { value: '' }, 'All folders'),
     folders.map(f => h('option', { value: f, selected: f === folder ? '' : undefined }, f || '(root)')));
   view.append(h('div', { class: 'row' }, 'Folder: ', sel, h('span', { class: 'dim' }, ` ${M.models.length} models total`)));
-  const list = M.models.filter(m => folder === undefined || m.folder === folder).slice(0, 500);
-  view.append(h('div', { class: 'grid' }, list.map(m =>
+  const list = M.models.filter(m => folder === undefined || m.folder === folder);
+  view.append(incrementalGrid(list, m =>
     h('a', { class: 'card', href: `#/model/${encodeURIComponent(m.id)}` },
       modelThumb(m.id),
       h('h3', {}, m.id.split('/').pop()),
-      h('p', {}, badge(`${m.elements} elem`, 'dim'), m.parent ? badge(m.parent.split('/').pop(), 'dim') : null)))));
-  if (M.models.length > 500 && folder === undefined) {
-    view.append(h('p', { class: 'dim' }, 'Showing first 500 — pick a folder to narrow down.'));
-  }
+      h('p', {}, badge(`${m.elements} elem`, 'dim'), m.parent ? badge(m.parent.split('/').pop(), 'dim') : null))));
 }
 
 function viewModel(view, id) {
   const m = modelById.get(id);
   view.append(h('a', { href: '#/models', class: 'crumb' }, '← Models'), h('h1', {}, id));
-  const canvasWrap = h('div', { class: 'viewerbox' }, h('canvas', {}));
-  view.append(canvasWrap);
-  show3D(canvasWrap.querySelector('canvas'), id);
+  const box = viewerBox();
+  view.append(box);
+  show3D(box, id);
   if (m) {
     view.append(h('p', {},
       m.parent ? badge('parent: ' + m.parent, 'dim') : null,
-      badge(`${m.elements} elements`, 'dim')));
+      badge(`${m.elements} elements`, 'dim'),
+      h('a', { class: 'badge dim', href: `${ASSETS}/models/${id}.json`, target: '_blank' }, 'raw JSON ↗')));
     if (m.textures.length) {
       view.append(h('h2', {}, 'Textures'), h('div', { class: 'texrow' },
         m.textures.map(t => h('a', { href: `#/textures/${encodeURIComponent(t)}`, class: 'texchip' },
@@ -248,11 +300,11 @@ function viewItems(view, filter) {
       ? list.filter(r => r.collection === filter.slice(2))
       : list.filter(r => r.category === filter);
   }
-  view.append(h('div', { class: 'grid' }, list.sort((a, b) => a.rename.localeCompare(b.rename)).map(r =>
+  view.append(incrementalGrid(list.sort((a, b) => a.rename.localeCompare(b.rename)), r =>
     h('a', { class: 'card', href: `#/item/${encodeURIComponent(r.item)}/${encodeURIComponent(r.rename)}` },
       modelThumb(r.model),
       h('h3', {}, r.rename),
-      h('p', {}, badge(titleCase(r.item), 'dim'), badge(r.category))))));
+      h('p', {}, badge(titleCase(r.item), 'dim'), badge(r.category)))));
 }
 
 function viewItem(view, item, rename) {
@@ -261,9 +313,9 @@ function viewItem(view, item, rename) {
   view.append(h('a', { href: '#/items', class: 'crumb' }, '← Custom Items'),
     h('h1', {}, r.rename),
     h('p', {}, badge(r.category), r.collection ? badge(r.collection) : null));
-  const canvasWrap = h('div', { class: 'viewerbox' }, h('canvas', {}));
-  view.append(canvasWrap);
-  show3D(canvasWrap.querySelector('canvas'), r.model);
+  const box = viewerBox();
+  view.append(box);
+  show3D(box, r.model);
   view.append(h('div', { class: 'howto' },
     h('h2', {}, 'How to get it'),
     h('ol', {},
@@ -323,17 +375,17 @@ function viewCtm(view, id) {
 function viewTextures(view, focus) {
   view.append(h('h1', {}, 'Textures'));
   const input = h('input', { class: 'search', placeholder: 'Filter textures…', value: focus || '' });
-  const grid = h('div', { class: 'grid texgrid' });
+  const wrap = h('div', {});
   const render = () => {
     const q = input.value.toLowerCase();
-    grid.innerHTML = '';
-    const list = M.textures.filter(t => t.path.includes(q)).slice(0, 400);
-    grid.append(...list.map(t => h('figure', { class: 'texcard' },
+    wrap.innerHTML = '';
+    const list = M.textures.filter(t => t.path.includes(q));
+    wrap.append(incrementalGrid(list, t => h('figure', { class: 'texcard' },
       h('img', { src: texUrl(t.path), loading: 'lazy' }),
-      h('figcaption', {}, t.path.split('/').pop(), t.animated ? badge('animated') : null))));
+      h('figcaption', {}, t.path.split('/').pop(), t.animated ? badge('animated') : null)), 'grid texgrid'));
   };
   input.addEventListener('input', render);
-  view.append(input, grid);
+  view.append(input, wrap);
   render();
 }
 
