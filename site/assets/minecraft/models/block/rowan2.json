@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"0": "block/rowan2",
+		"particle": "block/rowan2"
+	},
+	"elements": [
+		{
+			"from": [-3, -2, 1],
+			"to": [-3, 19, 22],
+			"rotation": {"angle": 45, "axis": "y", "origin": [-3, -2, -6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [19, -2, 2],
+			"to": [19, 16, 21],
+			"rotation": {"angle": -45, "axis": "y", "origin": [19, -2, -5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4, 2, -4],
+			"to": [19, 2, 17],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [18, 2, -9]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

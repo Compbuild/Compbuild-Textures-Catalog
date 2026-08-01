@@ -1,0 +1,559 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/station_skyline"
+        
+    },
+    "when": "Alaire: Station Skyline"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/travel_agency"
+        
+    },
+    "when": "Travel Agency 1x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/travel_agency"
+        
+    },
+    "when": "Travel Agency 2x1"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bakery"
+        
+    },
+    "when": "Bakery 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bottled_water"
+        
+    },
+    "when": "Bottled Water 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chickenjoint"
+        
+    },
+    "when": "Chicken Joint 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chickenjoint2"
+        
+    },
+    "when": "Chicken Joint 2 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/color"
+        
+    },
+    "when": "Color 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/free_wifi"
+        
+    },
+    "when": "Free Train Wifi 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/gameday"
+        
+    },
+    "when": "Gameday 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/makeup"
+        
+    },
+    "when": "Makeup 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/makeup2"
+        
+    },
+    "when": "Makeup 2 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/model_female"
+        
+    },
+    "when": "Female Model 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/model_male"
+        
+    },
+    "when": "Male Model 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/movie_ad"
+        
+    },
+    "when": "Movie Ad 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sparkly"
+        
+    },
+    "when": "Sparkling Water 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/yachtclub"
+        
+    },
+    "when": "Yacht Club 3x2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/barber"
+        
+    },
+    "when": "Barber"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/barrier"
+        
+    },
+    "when": "Barrier Brand"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cecilia"
+        
+    },
+    "when": "Jewelry"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/coffee"
+        
+    },
+    "when": "Coffee Shop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/coffeenewgen"
+        
+    },
+    "when": "Coffee Shop 2024"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cutpizza"
+        
+    },
+    "when": "Cut Pizza"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dance"
+        
+    },
+    "when": "Nightclub"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dancenewgen"
+        
+    },
+    "when": "Nightclub 2024"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/ecoluxe"
+        
+    },
+    "when": "EcoLuxe"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fleurele"
+        
+    },
+    "when": "Fleur Elegance"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/italianrestaurant"
+        
+    },
+    "when": "Italian Restaurant"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/metrogrove"
+        
+    },
+    "when": "Metrogrove"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/redpalm"
+        
+    },
+    "when": "Lounge"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/redpalmnewgen"
+        
+    },
+    "when": "Red Palm 2024"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salon"
+        
+    },
+    "when": "Salon"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/skylink"
+        
+    },
+    "when": "Skylink Communications"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/starlit"
+        
+    },
+    "when": "Starlit Cinemas"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/thebasics"
+        
+    },
+    "when": "The Basics"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/victorio"
+        
+    },
+    "when": "Clothing Store"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wheatfoods"
+        
+    },
+    "when": "Grocery Store"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wheatfoodsnewgen"
+        
+    },
+    "when": "Wheat Foods 2024"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wheatfoodsupdated"
+        
+    },
+    "when": "Modernized Store"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/parisianpaintingssimple"
+        
+    },
+    "when": "Parisian: Simple Paintings"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_painting1"
+        
+    },
+    "when": "Scand: Painting 1"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_painting2"
+        
+    },
+    "when": "Scand: Painting 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_painting3"
+        
+    },
+    "when": "Scand: Painting 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/graffiti_combined"
+        
+    },
+    "when": "Graffiti"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/graffiti_2_combined"
+        
+    },
+    "when": "Graffiti 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/graffiti_3_combined"
+        
+    },
+    "when": "Graffiti 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/halloween"
+        
+    },
+    "when": "Halloween: Neon Sign"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/kinneret"
+        
+    },
+    "when": "Kinneret Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/kinneret2"
+        
+    },
+    "when": "Kinneret Painting 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/kinneret3"
+        
+    },
+    "when": "Kinneret Painting 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/action"
+        
+    },
+    "when": "Action Movie"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/horror"
+        
+    },
+    "when": "Horror Movie"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/romance"
+        
+    },
+    "when": "Romance Movie"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/better_together"
+        
+    },
+    "when": "Neon Better Together"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/loveu"
+        
+    },
+    "when": "Neon Love 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/neon_chill"
+        
+    },
+    "when": "Neon Chill"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/neon_compbuild"
+        
+    },
+    "when": "Neon Compbuild"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/neon_compbuild_logo"
+        
+    },
+    "when": "Neon Compbuild Logo"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/neon_flamingo"
+        
+    },
+    "when": "Neon Flamingo"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/neon_luck"
+        
+    },
+    "when": "Neon Luck"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/neon_vibes"
+        
+    },
+    "when": "Neon Vibes"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nl_paintings"
+        
+    },
+    "when": "Nightlife: Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/angels"
+        
+    },
+    "when": "Angels Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/colonizer"
+        
+    },
+    "when": "Colonizer Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/explorers"
+        
+    },
+    "when": "Explorers Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/indigenous"
+        
+    },
+    "when": "Indigenous Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/keys"
+        
+    },
+    "when": "Keys Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/lady"
+        
+    },
+    "when": "Lady Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/old"
+        
+    },
+    "when": "Old Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/queen"
+        
+    },
+    "when": "Queen Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stand"
+        
+    },
+    "when": "Stand Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/abstract"
+        
+    },
+    "when": "Abstract Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blackabstract"
+        
+    },
+    "when": "Black Modern Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/eye"
+        
+    },
+    "when": "Eye Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/flower"
+        
+    },
+    "when": "Flower Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/long"
+        
+    },
+    "when": "Long Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spray"
+        
+    },
+    "when": "Spray Painting"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_paintings"
+        
+    },
+    "when": "Rosegold: Painting"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/painting"
+        }
+    }
+}

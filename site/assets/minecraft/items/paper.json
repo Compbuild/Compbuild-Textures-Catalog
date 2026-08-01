@@ -1,0 +1,202 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/luxury_bags"
+        
+    },
+    "when": "Luxury: Bags"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/elegance_tissue_box"
+        
+    },
+    "when": "Elegance: Tissue Box"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/australia"
+        
+    },
+    "when": "Australia Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brazil"
+        
+    },
+    "when": "Brazil Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/canada"
+        
+    },
+    "when": "Canada Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/china"
+        
+    },
+    "when": "China Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/france"
+        
+    },
+    "when": "France Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/germany"
+        
+    },
+    "when": "Germany Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/india"
+        
+    },
+    "when": "India Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/indonesia"
+        
+    },
+    "when": "Indonesia Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/ireland"
+        
+    },
+    "when": "Ireland Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/italy"
+        
+    },
+    "when": "Italy Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/japan"
+        
+    },
+    "when": "Japan Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mexico"
+        
+    },
+    "when": "Mexico Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/russia"
+        
+    },
+    "when": "Russia Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/south_korea"
+        
+    },
+    "when": "South Korea Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spain"
+        
+    },
+    "when": "Spain Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sweden"
+        
+    },
+    "when": "Sweden Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/turkey"
+        
+    },
+    "when": "Turkey Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/uk"
+        
+    },
+    "when": "UK Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/usa"
+        
+    },
+    "when": "USA Flag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/few"
+        
+    },
+    "when": "Few Newspapers"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pile"
+        
+    },
+    "when": "Pile of Newspapers"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/single"
+        
+    },
+    "when": "Newspaper"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/covid_combined"
+        
+    },
+    "when": "COVID"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/irenemap_combined"
+        
+    },
+    "when": "IRENE"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/phone_combined"
+        
+    },
+    "when": "Phone"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/paper"
+        }
+    }
+}

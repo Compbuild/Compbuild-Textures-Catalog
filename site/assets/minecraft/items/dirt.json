@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/elliptical"
+        
+    },
+    "when": "Elliptical"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/treadmill"
+        
+    },
+    "when": "Treadmill"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/dirt"
+        }
+    }
+}

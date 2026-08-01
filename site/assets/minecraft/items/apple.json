@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Banana",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/banana"
+        }
+      },
+      {
+        "when": "Lemon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/lemon"
+        }
+      },
+      {
+        "when": "Orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/orange"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/apple"
+    }
+  },
+  "hand_animation_on_swap": false
+}

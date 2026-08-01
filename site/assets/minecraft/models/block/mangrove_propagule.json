@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/mangrove_propagule",
+		"sapling": "block/mangrove_propagule"
+	},
+	"elements": [
+		{
+			"from": [4.5, 0, 8],
+			"to": [11.5, 15, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"from": [4.5, 0, 8],
+			"to": [11.5, 15, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#sapling"}
+			}
+		}
+	],
+	"display": {}
+}

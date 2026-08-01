@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/black_kitchen_sink"
+        
+    },
+    "when": "Black Kitchen Sink Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brown_kitchen_sink"
+        
+    },
+    "when": "Brown Kitchen Sink Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/white_kitchen_sink"
+        
+    },
+    "when": "White Kitchen Sink Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mini_sink"
+        
+    },
+    "when": "Mini Sink"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mini_sink_black"
+        
+    },
+    "when": "Mini Sink Black"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mini_sink_dark_wood"
+        
+    },
+    "when": "Dark Oak Mini Sink"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/cauldron"
+        }
+    }
+}

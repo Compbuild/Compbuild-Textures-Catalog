@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/dark_oak_sapling" },
+      { "model": "minecraft:block/dark_oak_sapling2" },
+      { "model": "minecraft:block/dark_oak_sapling3" }
+    ]
+  }
+}

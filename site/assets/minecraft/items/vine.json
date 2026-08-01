@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/hanging_pictures"
+        
+    },
+    "when": "Hanging Pictures"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_vines"
+        
+    },
+    "when": "Rosegold: Vines"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/vine","tints":[{"type":"minecraft:constant","value":-12012264}]
+        }
+    }
+}

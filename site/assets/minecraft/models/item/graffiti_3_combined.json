@@ -1,0 +1,6 @@
+{
+  "parent": "item/graffiti_3",
+  "textures": {
+    "layer0": "item/graffiti_3"
+  } 
+}

@@ -1,0 +1,49 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      { "when": "Letter A", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/A" } },
+      { "when": "Letter B", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/B" } },
+      { "when": "Letter C", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/C" } },
+      { "when": "Letter D", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/D" } },
+      { "when": "Letter E", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/E" } },
+      { "when": "Letter F", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/F" } },
+      { "when": "Letter G", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/G" } },
+      { "when": "Letter H", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/H" } },
+      { "when": "Letter I", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/I" } },
+      { "when": "Letter J", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/J" } },
+      { "when": "Letter K", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/K" } },
+      { "when": "Letter L", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/L" } },
+      { "when": "Letter M", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/M" } },
+      { "when": "Letter N", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/N" } },
+      { "when": "Letter O", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/O" } },
+      { "when": "Letter P", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/P" } },
+      { "when": "Letter Q", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/Q" } },
+      { "when": "Letter R", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/R" } },
+      { "when": "Letter S", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/S" } },
+      { "when": "Letter T", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/T" } },
+      { "when": "Letter U", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/U" } },
+      { "when": "Letter V", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/V" } },
+      { "when": "Letter W", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/W" } },
+      { "when": "Letter X", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/X" } },
+      { "when": "Letter Y", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/Y" } },
+      { "when": "Letter Z", "model": { "type": "minecraft:model", "model": "minecraft:item/alphabet/Z" } },
+      { "when": "Number 0", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/0" } },
+      { "when": "Number 1", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/1" } },
+      { "when": "Number 2", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/2" } },
+      { "when": "Number 3", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/3" } },
+      { "when": "Number 4", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/4" } },
+      { "when": "Number 5", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/5" } },
+      { "when": "Number 6", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/6" } },
+      { "when": "Number 7", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/7" } },
+      { "when": "Number 8", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/8" } },
+      { "when": "Number 9", "model": { "type": "minecraft:model", "model": "minecraft:item/numbers/9" } }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/acacia_sign"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/car"
+        
+    },
+    "when": "Magazine 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fashion"
+        
+    },
+    "when": "Magazine 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fitness"
+        
+    },
+    "when": "Magazine 4"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/echo_shard"
+        }
+    }
+}

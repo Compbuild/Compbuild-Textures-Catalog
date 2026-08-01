@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/coral_fan",
+	"textures": {
+		"0": "block/sofa",
+		"particle": "block/sofa"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 0],
+			"to": [6, 13, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"east": {"uv": [0, 0, 14, 7], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 14, 7], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 14], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 14], "texture": "#0"}
+			}
+		}
+	]
+}

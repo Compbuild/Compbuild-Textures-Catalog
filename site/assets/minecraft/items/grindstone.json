@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/barbell_rack"
+        
+    },
+    "when": "Barbell Rack"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/decorative_wheel"
+        
+    },
+    "when": "Decorative Wheel"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dumbbell_rack"
+        
+    },
+    "when": "Dumbbell Rack"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/race_spoiler"
+        
+    },
+    "when": "Race Spoiler"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sedan_spoiler"
+        
+    },
+    "when": "Sedan Spoiler"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sports_spoiler"
+        
+    },
+    "when": "Sports Spoiler"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/grindstone"
+        }
+    }
+}

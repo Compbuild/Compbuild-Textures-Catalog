@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/luxury_stool"
+        
+    },
+    "when": "Luxury: Stool"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rustic_stool"
+        
+    },
+    "when": "Rustic: Stool"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nl_stool"
+        
+    },
+    "when": "Nightlife: Stool"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_stool"
+        
+    },
+    "when": "Rosegold: Stool"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/dead_tube_coral"
+        }
+    }
+}

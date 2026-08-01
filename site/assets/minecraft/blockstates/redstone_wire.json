@@ -1,0 +1,239 @@
+{
+  "variants": {
+    "east=up,north=none,power=1,south=none,west=side": {
+      "model": "minecraft:block/glass_ascending_railing",
+      "y": 270
+    },
+    "east=none,north=up,power=1,south=side,west=none": {
+      "model": "minecraft:block/glass_ascending_railing",
+      "y": 180
+    },
+    "east=none,north=side,power=1,south=up,west=none": {
+      "model": "minecraft:block/glass_ascending_railing"
+    },
+    "east=side,north=none,power=1,south=none,west=up": {
+      "model": "minecraft:block/glass_ascending_railing",
+      "y": 90
+    },
+    "east=up,north=none,power=2,south=none,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_left",
+      "y": 270
+    },
+    "east=none,north=up,power=2,south=side,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_left",
+      "y": 180
+    },
+    "east=none,north=side,power=2,south=up,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_left"
+    },
+    "east=side,north=none,power=2,south=none,west=up": {
+      "model": "minecraft:block/glass_ascending_railing_left",
+      "y": 90
+    },
+    "east=up,north=none,power=3,south=none,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_right",
+      "y": 270
+    },
+    "east=none,north=up,power=3,south=side,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_right",
+      "y": 180
+    },
+    "east=none,north=side,power=3,south=up,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_right"
+    },
+    "east=side,north=none,power=3,south=none,west=up": {
+      "model": "minecraft:block/glass_ascending_railing_right",
+      "y": 90
+    },
+    "east=none,north=none,power=1,south=side,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_side",
+      "y": 270
+    },
+    "east=side,north=none,power=1,south=side,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_side",
+      "y": 180
+    },
+    "east=none,north=side,power=1,south=none,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_side"
+    },
+    "east=side,north=side,power=1,south=none,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_side",
+      "y": 90
+    },
+    "east=none,north=side,power=1,south=side,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_fence",
+      "y": 270
+    },
+    "east=side,north=none,power=1,south=side,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_fence",
+      "y": 180
+    },
+    "east=side,north=side,power=1,south=none,west=side": {
+      "model": "minecraft:block/glass_ascending_railing_fence"
+    },
+    "east=side,north=side,power=1,south=side,west=none": {
+      "model": "minecraft:block/glass_ascending_railing_fence",
+      "y": 90
+    },
+    "east=up,north=none,power=4,south=none,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing",
+      "y": 270
+    },
+    "east=none,north=up,power=4,south=side,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing",
+      "y": 180
+    },
+    "east=none,north=side,power=4,south=up,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing"
+    },
+    "east=side,north=none,power=4,south=none,west=up": {
+      "model": "minecraft:block/industrial_ascending_railing",
+      "y": 90
+
+    },
+    "east=up,north=none,power=5,south=none,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_left",
+      "y": 270
+    },
+    "east=none,north=up,power=5,south=side,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_left",
+      "y": 180
+    },
+    "east=none,north=side,power=5,south=up,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_left"
+    },
+    "east=side,north=none,power=5,south=none,west=up": {
+      "model": "minecraft:block/industrial_ascending_railing_left",
+      "y": 90
+    },
+    "east=up,north=none,power=6,south=none,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_right",
+      "y": 270
+    },
+    "east=none,north=up,power=6,south=side,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_right",
+      "y": 180
+    },
+    "east=none,north=side,power=6,south=up,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_right"
+    },
+    "east=side,north=none,power=6,south=none,west=up": {
+      "model": "minecraft:block/industrial_ascending_railing_right",
+      "y": 90
+    },
+    "east=none,north=none,power=2,south=side,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_side",
+      "y": 270
+    },
+    "east=side,north=none,power=2,south=side,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_side",
+      "y": 180
+    },
+    "east=none,north=side,power=2,south=none,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_side"
+    },
+    "east=side,north=side,power=2,south=none,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_side",
+      "y": 90
+    },
+    "east=none,north=side,power=2,south=side,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_fence",
+      "y": 270
+    },
+    "east=side,north=none,power=2,south=side,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_fence",
+      "y": 180
+    },
+    "east=side,north=side,power=2,south=none,west=side": {
+      "model": "minecraft:block/industrial_ascending_railing_fence"
+    },
+    "east=side,north=side,power=2,south=side,west=none": {
+      "model": "minecraft:block/industrial_ascending_railing_fence",
+      "y": 90
+    },
+    "east=up,north=none,power=7,south=none,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing",
+      "y": 270
+    },
+    "east=none,north=up,power=7,south=side,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing",
+      "y": 180
+    },
+    "east=none,north=side,power=7,south=up,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing"
+    },
+    "east=side,north=none,power=7,south=none,west=up": {
+      "model": "minecraft:block/traditional_ascending_railing",
+      "y": 90
+    },
+    "east=up,north=none,power=8,south=none,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_left",
+      "y": 270
+    },
+    "east=none,north=up,power=8,south=side,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_left",
+      "y": 180
+    },
+    "east=none,north=side,power=8,south=up,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_left"
+    },
+    "east=side,north=none,power=8,south=none,west=up": {
+      "model": "minecraft:block/traditional_ascending_railing_left",
+      "y": 90
+    },
+    "east=up,north=none,power=9,south=none,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_right",
+      "y": 270
+    },
+    "east=none,north=up,power=9,south=side,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_right",
+      "y": 180
+    },
+    "east=none,north=side,power=9,south=up,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_right"
+    },
+    "east=side,north=none,power=9,south=none,west=up": {
+      "model": "minecraft:block/traditional_ascending_railing_right",
+      "y": 90
+    },
+    "east=none,north=none,power=3,south=side,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_side",
+      "y": 270
+    },
+    "east=side,north=none,power=3,south=side,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_side",
+      "y": 180
+    },
+    "east=none,north=side,power=3,south=none,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_side"
+    },
+    "east=side,north=side,power=3,south=none,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_side",
+      "y": 90
+    },
+    "east=none,north=side,power=3,south=side,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_fence",
+      "y": 270
+    },
+    "east=side,north=none,power=3,south=side,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_fence",
+      "y": 180
+    },
+    "east=side,north=side,power=3,south=none,west=side": {
+      "model": "minecraft:block/traditional_ascending_railing_fence"
+    },
+    "east=side,north=side,power=3,south=side,west=none": {
+      "model": "minecraft:block/traditional_ascending_railing_fence",
+      "y": 90
+    },
+    "east=side,north=side,power=1,south=side,west=side": {
+      "model": "minecraft:block/redstone_dust_dot_cross"
+    },
+    "east=none,north=side,power=1,south=side,west=none": {
+      "model": "minecraft:block/bike_rack_ns"
+    },
+    "east=side,north=none,power=1,south=none,west=side": {
+      "model": "minecraft:block/bike_rack_we"
+    }
+  }
+}

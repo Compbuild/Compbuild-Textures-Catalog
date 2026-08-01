@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/crib"
+        
+    },
+    "when": "Crib"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dogbed"
+        
+    },
+    "when": "Pet Bed"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:special","base":"minecraft:item/white_bed","model":{"type":"minecraft:bed","texture":"minecraft:white"}
+        }
+    }
+}

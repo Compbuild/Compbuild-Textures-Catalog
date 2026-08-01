@@ -1,0 +1,146 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_chair_connected"
+        
+    },
+    "when": "Outdoor: Connected Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_chair_solo"
+        
+    },
+    "when": "Outdoor: Solo Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/elegance_sofa"
+        
+    },
+    "when": "Elegance: Sofa"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/patio_sunbed"
+        
+    },
+    "when": "Patio: Sunbed"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nl_sofa"
+        
+    },
+    "when": "Nightlife: Sofa"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scattered_pillows"
+        
+    },
+    "when": "Scattered Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_sofa"
+        
+    },
+    "when": "Rosegold: Sofa"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blue_pattern_sofa_pillows"
+        
+    },
+    "when": "Blue Pattern Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blue_sofa_pillows"
+        
+    },
+    "when": "Blue Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/gold_pattern_sofa_pillows"
+        
+    },
+    "when": "Gold Pattern Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/gray_sofa_pillows"
+        
+    },
+    "when": "Gray Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/green_sofa_pillows"
+        
+    },
+    "when": "Green Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/light_green_sofa_pillows"
+        
+    },
+    "when": "Lime Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pattern_sofa_pillows"
+        
+    },
+    "when": "Pattern Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pattern_sofa_pillows2"
+        
+    },
+    "when": "Pattern Sofa Pillows 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/red_pattern_sofa_pillows"
+        
+    },
+    "when": "Red Fancy Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/red_sofa_pillows"
+        
+    },
+    "when": "Red Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/yellow_sofa_pillows"
+        
+    },
+    "when": "Yellow Sofa Pillows"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/sunbed"
+        
+    },
+    "when": "Sunbed"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/horn_coral_fan"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/mossy_cobblestone"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [4, 0, 0],
+			"to": [12, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"east": {"uv": [8, 0, 12, 16], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 16], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 16], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [12, 0, 16, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [8, 0, 12, 8], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

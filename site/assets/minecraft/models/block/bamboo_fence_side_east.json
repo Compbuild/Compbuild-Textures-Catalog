@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/quartz_color_block",
+		"particle": "block/quartz_color_block"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 6],
+			"to": [16, 16, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [16, 4.5, 0, 9.625], "texture": "#0"},
+				"east": {"uv": [16, 4.5, 0, 9.625], "texture": "#0"},
+				"south": {"uv": [16, 4.5, 0, 9.625], "texture": "#0"},
+				"west": {"uv": [16, 4.5, 0, 9.625], "texture": "#0"},
+				"up": {"uv": [0, 9.625, 16, 4.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 9.625, 16, 4.5], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/coffee_table"
+        
+    },
+    "when": "Coffee Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/luxury_table"
+        
+    },
+    "when": "Luxury: Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_chair_table"
+        
+    },
+    "when": "Outdoor: Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/parisiancoffeetable"
+        
+    },
+    "when": "Parisian: Curvy Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/parisianofficetable"
+        
+    },
+    "when": "Parisian: Office Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/parisian_console_table"
+        
+    },
+    "when": "Parisian: Console Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rustic_table"
+        
+    },
+    "when": "Rustic: Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_coffee_table"
+        
+    },
+    "when": "Scand: Room Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/birch_classic_outdoor_table"
+        
+    },
+    "when": "Birch Classic Outdoor Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dark_oak_classic_outdoor_table"
+        
+    },
+    "when": "Dark Oak Classic Outdoor Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/oak_classic_outdoor_table"
+        
+    },
+    "when": "Oak Classic Outdoor Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spruce_classic_outdoor_table"
+        
+    },
+    "when": "Spruce Classic Outdoor Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nl_table"
+        
+    },
+    "when": "Nightlife: Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_table"
+        
+    },
+    "when": "Outdoor Table"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_table"
+        
+    },
+    "when": "Rosegold: Table"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/dead_fire_coral"
+        }
+    }
+}

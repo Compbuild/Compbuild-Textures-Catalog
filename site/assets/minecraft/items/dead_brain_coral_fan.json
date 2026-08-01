@@ -1,0 +1,202 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/arched_cupboard"
+        
+    },
+    "when": "Arched: Cupboard"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/arched_opened_cupboard"
+        
+    },
+    "when": "Arched: Opened Cupboard"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_blue_storage"
+        
+    },
+    "when": "Basic: Blue Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_green_storage"
+        
+    },
+    "when": "Basic: Green Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_light_wood_storage"
+        
+    },
+    "when": "Basic: Light Wood Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_red_storage"
+        
+    },
+    "when": "Basic: Red Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_wood_storage"
+        
+    },
+    "when": "Basic: Wood Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_yellow_storage"
+        
+    },
+    "when": "Basic: Yellow Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blue_basic"
+        
+    },
+    "when": "Basic: Blue"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/green_basic"
+        
+    },
+    "when": "Basic: Green"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/light_wood_basic"
+        
+    },
+    "when": "Basic: Light Wood"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/red_basic"
+        
+    },
+    "when": "Basic: Red"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wood_basic"
+        
+    },
+    "when": "Basic: Wood"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/yellow_basic"
+        
+    },
+    "when": "Basic: Yellow"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chocolate_cupboard"
+        
+    },
+    "when": "Chocolate: Cupboard"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chocolate_storage"
+        
+    },
+    "when": "Chocolate: Storage"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blue_planks_countertop"
+        
+    },
+    "when": "Blue Planks Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dark_marble_countertop"
+        
+    },
+    "when": "Dark Marble Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/granite_countertop"
+        
+    },
+    "when": "Granite Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/green_planks_countertop"
+        
+    },
+    "when": "Green Planks Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/marble_countertop"
+        
+    },
+    "when": "Marble Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rustic_countertop"
+        
+    },
+    "when": "Rustic Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/smooth_wood_countertop"
+        
+    },
+    "when": "Smooth Wood Countertop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/goldlong"
+        
+    },
+    "when": "Handle: Gold Long"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/goldtop"
+        
+    },
+    "when": "Handle: Gold Top"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/silverlong"
+        
+    },
+    "when": "Handle: Silver Long"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/silvertop"
+        
+    },
+    "when": "Handle: Silver Top"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/dead_brain_coral_fan"
+        }
+    }
+}

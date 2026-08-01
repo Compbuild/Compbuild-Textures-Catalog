@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross_emissive",
+	"textures": {
+		"1": "block/firefly_bush3",
+		"cross_emissive": "block/firefly_bush_emissive",
+		"particle": "block/firefly_bush3"
+	},
+	"elements": [
+		{
+			"from": [2, 0, -3],
+			"to": [2, 27, 23],
+			"rotation": {"angle": 45, "axis": "y", "origin": [2, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [16, 0, -3],
+			"to": [16, 23, 23],
+			"rotation": {"angle": -45, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, -3],
+			"to": [0, 27, 23],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"}
+			}
+		},
+		{
+			"from": [16, 0, -3],
+			"to": [16, 23, 23],
+			"rotation": {"angle": -45, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross_emissive"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#cross_emissive"}
+			}
+		}
+	]
+}

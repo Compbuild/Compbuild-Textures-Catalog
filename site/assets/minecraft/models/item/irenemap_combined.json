@@ -1,0 +1,6 @@
+{
+  "parent": "item/irenemap",
+  "textures": {
+    "layer0": "item/map_adv"
+  } 
+}

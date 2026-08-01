@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/map"
+	},
+	"display": {
+		"fixed": {
+			"translation": [-0.5, 0, 0],
+			"scale": [2.26, 2.35, 1]
+		}
+	}
+}

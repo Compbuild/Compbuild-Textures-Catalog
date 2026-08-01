@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/icecream_tub"
+        
+    },
+    "when": "Ice Cream Tub"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/icecream_tub_2"
+        
+    },
+    "when": "Ice Cream Tub 2"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/spider_eye"
+        }
+    }
+}

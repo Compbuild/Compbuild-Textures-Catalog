@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "power=0": {
+      "model": "minecraft:block/red_half_timber"
+    },
+    "power=1": {
+      "model": "minecraft:block/yellow_half_timber"
+    },
+    "power=2": {
+      "model": "minecraft:block/brick_half_timber"
+    },
+    "power=3": {
+      "model": "minecraft:block/moss_cobblestone"
+    },
+    "power=4": {
+      "model": "minecraft:block/moss_stone_bricks"
+    },
+    "power=5": {
+      "model": "minecraft:block/natural_sandstone"
+    },
+    "power=6": {
+      "model": "minecraft:block/red_cover"
+    },
+    "power=7": {
+      "model": "minecraft:block/red_cover"
+    },
+    "power=8": {
+      "model": "minecraft:block/blue_cover"
+    },
+    "power=9": {
+      "model": "minecraft:block/yellow_cover"
+    },
+    "power=10": {
+      "model": "minecraft:block/green_cover"
+    },
+    "power=11": {
+      "model": "minecraft:block/baroque_tile"
+    },
+    "power=12": {
+      "model": "minecraft:block/sepia_floral"
+    },
+    "power=13": {
+      "model": "minecraft:block/crowned_block"
+    },
+    "power=14": {
+      "model": "minecraft:block/victorian_wallpaper"
+    },
+    "power=15": {
+      "model": "minecraft:block/gothic_ornate"
+    }
+  }
+}

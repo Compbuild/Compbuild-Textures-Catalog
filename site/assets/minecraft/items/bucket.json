@@ -1,0 +1,62 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bodywash"
+        
+    },
+    "when": "Bodywash"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/shampooandconditioner"
+        
+    },
+    "when": "Shampoo and Conditioner"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/soap_dispenser"
+        
+    },
+    "when": "Soap Dispenser"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/soap_holder"
+        
+    },
+    "when": "Soap Holder"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/toilet"
+        
+    },
+    "when": "Toilet"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/toilet_open"
+        
+    },
+    "when": "Lid Open"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/urinal"
+        
+    },
+    "when": "Urinal"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/bucket"
+        }
+    }
+}

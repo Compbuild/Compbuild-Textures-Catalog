@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/bush" },
+      { "model": "minecraft:block/bush2" },
+      { "model": "minecraft:block/bush3" },
+      { "model": "minecraft:block/bush4" },
+      { "model": "minecraft:block/bush5" },
+      { "model": "minecraft:block/bush6" },
+      { "model": "minecraft:block/bush7" },
+      { "model": "minecraft:block/bush8" },
+      { "model": "minecraft:block/bush9" },
+      { "model": "minecraft:block/bush10" }
+    ]
+  }
+}

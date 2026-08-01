@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/shower_head"
+        
+    },
+    "when": "Shower Head"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/shower_head2"
+        
+    },
+    "when": "Shower Head 2"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/tripwire_hook"
+        }
+    }
+}

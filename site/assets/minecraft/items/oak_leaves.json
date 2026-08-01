@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/autumn_fallenleaves"
+        
+    },
+    "when": "Fallen Leaves"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/autumn_fallenleaves2"
+        
+    },
+    "when": "Fallen Leaves 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/autumn_fallenleaves3"
+        
+    },
+    "when": "Fallen Leaves 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/minivines1"
+        
+    },
+    "when": "Mini Vines"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/minivines2"
+        
+    },
+    "when": "Mini Vines 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/minivines3"
+        
+    },
+    "when": "Mini Vines 3"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/oak_leaves","tints":[{"type":"minecraft:constant","value":-12012264}]
+        }
+    }
+}

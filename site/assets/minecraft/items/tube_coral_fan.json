@@ -1,0 +1,153 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/arched_shelf"
+        
+    },
+    "when": "Arched: Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/arched_shelf_single"
+        
+    },
+    "when": "Arched: Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_blue_shelf"
+        
+    },
+    "when": "Basic: Blue Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_blue_single_shelf"
+        
+    },
+    "when": "Basic: Blue Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_green_shelf"
+        
+    },
+    "when": "Basic: Green Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_green_single_shelf"
+        
+    },
+    "when": "Basic: Green Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_light_wood_shelf"
+        
+    },
+    "when": "Basic: Light Wood Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_light_wood_single_shelf"
+        
+    },
+    "when": "Basic: Light Wood Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_red_shelf"
+        
+    },
+    "when": "Basic: Red Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_red_single_shelf"
+        
+    },
+    "when": "Basic: Red Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_wood_shelf"
+        
+    },
+    "when": "Basic: Wood Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_wood_single_shelf"
+        
+    },
+    "when": "Basic: Wood Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_yellow_shelf"
+        
+    },
+    "when": "Basic: Yellow Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/basic_yellow_single_shelf"
+        
+    },
+    "when": "Basic: Yellow Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chocolate_shelf"
+        
+    },
+    "when": "Chocolate: Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chocolate_shelf_single"
+        
+    },
+    "when": "Chocolate: Single Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/parisian_cube_shelf"
+        
+    },
+    "when": "Parisian: Cube Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_shelf"
+        
+    },
+    "when": "Scand: Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_shelf_decorated"
+        
+    },
+    "when": "Scand: Decorated Shelf"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/grocery_shelf"
+        
+    },
+    "when": "Grocery Shelf"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/tube_coral_fan"
+        }
+    }
+}

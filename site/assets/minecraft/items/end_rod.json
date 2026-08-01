@@ -1,0 +1,83 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_umbrella"
+        
+    },
+    "when": "Outdoor: Umbrella"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blue_lined_umbrella"
+        
+    },
+    "when": "Blue Lined Umbrella"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/green_lined_umbrella"
+        
+    },
+    "when": "Green Lined Umbrella"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/red_lined_umbrella"
+        
+    },
+    "when": "Red Lined Umbrella"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/umbrella_1"
+        
+    },
+    "when": "Umbrella"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/umbrella_2"
+        
+    },
+    "when": "Umbrella 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/umbrella_3"
+        
+    },
+    "when": "Umbrella 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/umbrella_4"
+        
+    },
+    "when": "Umbrella 4"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/umbrella_5"
+        
+    },
+    "when": "Umbrella 5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/yellow_lined_umbrella"
+        
+    },
+    "when": "Yellow Lined Umbrella"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/end_rod"
+        }
+    }
+}

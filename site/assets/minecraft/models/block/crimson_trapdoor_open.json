@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_orientable_trapdoor_open",
+	"textures": {
+		"texture": "block/crimson_trapdoor"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 14],
+			"to": [2, 16, 17],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 16], "texture": "#texture"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#texture"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [2, 0, 15],
+			"to": [14, 16, 16],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#texture"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#texture"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#texture"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#texture"},
+				"up": {"uv": [2, 0, 14, 16], "texture": "#texture"},
+				"down": {"uv": [2, 0, 14, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [14, 0, 14],
+			"to": [16, 16, 17],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#texture"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#texture"},
+				"up": {"uv": [0, 0, 2, 3], "texture": "#texture"},
+				"down": {"uv": [0, 0, 2, 3], "texture": "#texture"}
+			}
+		}
+	]
+}

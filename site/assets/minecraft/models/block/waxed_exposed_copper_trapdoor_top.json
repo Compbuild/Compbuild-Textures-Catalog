@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/thin_block",
+	"textures": {
+		"0": "block/quartz_color_block",
+		"particle": "block/quartz_color_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [24, 10.5, 4],
+			"rotation": {"angle": 45, "axis": "z", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "waxed_weathered_copper_trapdoor_bottom",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "waxed_weathered_copper_trapdoor_top",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "waxed_copper_trapdoor_bottom",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [0]
+						}
+					]
+				}
+			]
+		}
+	]
+}

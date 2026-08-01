@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/fence_side",
+	"textures": {
+		"1": "block/obsidian"
+	},
+	"elements": [
+		{
+			"from": [5, 10, 0],
+			"to": [11, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.5, 20, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

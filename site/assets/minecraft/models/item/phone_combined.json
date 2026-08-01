@@ -1,0 +1,6 @@
+{
+  "parent": "item/phone",
+  "textures": {
+    "layer0": "item/covid"
+  } 
+}

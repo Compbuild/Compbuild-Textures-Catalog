@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/parisian_lamp"
+        
+    },
+    "when": "Parisian: Lamp"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rustic_lamp"
+        
+    },
+    "when": "Rustic: Lamp"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/dead_bubble_coral"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north": [
+      { "model": "minecraft:block/wall_shelf" },
+      { "model": "minecraft:block/wall_shelf2" },
+      { "model": "minecraft:block/wall_shelf3" },
+      { "model": "minecraft:block/wall_shelf4" }
+    ],
+    "facing=east": [
+      { "model": "minecraft:block/wall_shelf", "y": 90 },
+      { "model": "minecraft:block/wall_shelf2", "y": 90 },
+      { "model": "minecraft:block/wall_shelf3", "y": 90 },
+      { "model": "minecraft:block/wall_shelf4", "y": 90 }
+    ],
+    "facing=south": [
+      { "model": "minecraft:block/wall_shelf", "y": 180 },
+      { "model": "minecraft:block/wall_shelf2", "y": 180 },
+      { "model": "minecraft:block/wall_shelf3", "y": 180 },
+      { "model": "minecraft:block/wall_shelf4", "y": 180 }
+    ],
+    "facing=west": [
+      { "model": "minecraft:block/wall_shelf", "y": 270 },
+      { "model": "minecraft:block/wall_shelf2", "y": 270 },
+      { "model": "minecraft:block/wall_shelf3", "y": 270 },
+      { "model": "minecraft:block/wall_shelf4", "y": 270 }
+    ]
+  }
+}

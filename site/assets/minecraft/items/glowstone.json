@@ -1,0 +1,76 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/apocalypse_back_light"
+        
+    },
+    "when": "Apocalypse Back Light"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/apocalypse_car_light"
+        
+    },
+    "when": "Apocalypse Car Light"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rgb_strip_blue"
+        
+    },
+    "when": "Blue RGB Lights"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rgb_strip_green"
+        
+    },
+    "when": "Green RGB Lights"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rgb_strip_orange"
+        
+    },
+    "when": "Orange RGB Lights"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rgb_strip_purple"
+        
+    },
+    "when": "Purple RGB Lights"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rgb_strip_red"
+        
+    },
+    "when": "Red RGB Lights"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/truck_back_light"
+        
+    },
+    "when": "Truck Back Light"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/truck_car_light"
+        
+    },
+    "when": "Truck Car Light"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/glowstone"
+        }
+    }
+}

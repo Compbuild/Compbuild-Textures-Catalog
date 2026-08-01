@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bench"
+        
+    },
+    "when": "Bench"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/squat_rack"
+        
+    },
+    "when": "Squat Rack"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mounted_off"
+        
+    },
+    "when": "Mounted TV"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mounted_on"
+        
+    },
+    "when": "Mounted TV On"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nl_laptop"
+        
+    },
+    "when": "Nightlife: Laptop"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_laptop"
+        
+    },
+    "when": "Rosegold: Laptop"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/comparator"
+        }
+    }
+}

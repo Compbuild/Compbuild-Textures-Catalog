@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "half=lower": [
+      { "model": "minecraft:block/large_fern_bottom" },
+      { "model": "minecraft:block/large_fern_bottom2" },
+      { "model": "minecraft:block/large_fern_bottom3" },
+      { "model": "minecraft:block/large_fern_bottom4" }
+    ],
+    "half=upper": {
+      "model": "minecraft:block/large_fern_top"
+    }
+  }
+}

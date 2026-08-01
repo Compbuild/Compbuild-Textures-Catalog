@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "bites=0": [
+      {"model": "minecraft:block/books"},
+      {"model": "minecraft:block/books2"},
+      {"model": "minecraft:block/books3"},
+      {"model": "minecraft:block/books4"},
+      {"model": "minecraft:block/books5"},
+      {"model": "minecraft:block/books6"},
+      {"model": "minecraft:block/books7"},
+      {"model": "minecraft:block/books8"}
+    ]
+  }
+}

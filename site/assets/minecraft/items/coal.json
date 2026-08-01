@@ -1,0 +1,111 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_10"
+        
+    },
+    "when": "Cover 10"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_11"
+        
+    },
+    "when": "Cover 11"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_12"
+        
+    },
+    "when": "Cover 12"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_13"
+        
+    },
+    "when": "Cover 13"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_14"
+        
+    },
+    "when": "Cover 14"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_15"
+        
+    },
+    "when": "Cover 15"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_2"
+        
+    },
+    "when": "Cover 2"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_3"
+        
+    },
+    "when": "Cover 3"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_4"
+        
+    },
+    "when": "Cover 4"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_5"
+        
+    },
+    "when": "Cover 5"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_6"
+        
+    },
+    "when": "Cover 6"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_7"
+        
+    },
+    "when": "Cover 7"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_8"
+        
+    },
+    "when": "Cover 8"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cover_9"
+        
+    },
+    "when": "Cover 9"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/coal"
+        }
+    }
+}

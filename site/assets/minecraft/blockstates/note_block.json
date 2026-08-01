@@ -1,0 +1,544 @@
+{
+  "variants": {
+    "instrument=harp,note=1,powered=false": {
+      "model": "minecraft:block/rustic_sandstone"
+    },
+    "instrument=harp,note=2,powered=false": {
+      "model": "minecraft:block/grunge_sandstone"
+    },
+    "instrument=harp,note=3,powered=false": {
+      "model": "minecraft:block/travertine"
+    },
+    "instrument=harp,note=4,powered=false": {
+      "model": "minecraft:block/azulejo_tile"
+    },
+    "instrument=harp,note=5,powered=false": {
+      "model": "minecraft:block/azulejo_tile_2"
+    },
+    "instrument=harp,note=6,powered=false": {
+      "model": "minecraft:block/azulejo_tile_3"
+    },
+    "instrument=harp,note=7,powered=false": {
+      "model": "minecraft:block/cement_tile"
+    },
+    "instrument=harp,note=8,powered=false": {
+      "model": "minecraft:block/cement_tile_2"
+    },
+    "instrument=harp,note=9,powered=false": {
+      "model": "minecraft:block/cement_tile_3"
+    },
+    "instrument=harp,note=10,powered=false": {
+      "model": "minecraft:block/black_cobblestone"
+    },
+    "instrument=harp,note=11,powered=false": {
+      "model": "minecraft:block/terrazzo"
+    },
+    "instrument=harp,note=12,powered=false": {
+      "model": "minecraft:block/cork"
+    },
+    "instrument=harp,note=13,powered=false": {
+      "model": "minecraft:block/yellow_grunge"
+    },
+    "instrument=harp,note=14,powered=false": {
+      "model": "minecraft:block/brown_grunge_bricks"
+    },
+    "instrument=harp,note=15,powered=false": {
+      "model": "minecraft:block/grunge_concrete"
+    },
+    "instrument=harp,note=16,powered=false": {
+      "model": "minecraft:block/colored_grunge_concrete"
+    },
+    "instrument=harp,note=17,powered=false": {
+      "model": "minecraft:block/aged_concrete_bricks"
+    },
+    "instrument=harp,note=18,powered=false": {
+      "model": "minecraft:block/ruined_concrete_bricks"
+    },
+    "instrument=harp,note=19,powered=false": {
+      "model": "minecraft:block/parisian_frescoes"
+    },
+    "instrument=harp,note=20,powered=false": {
+      "model": "minecraft:block/italian_frescoes"
+    },
+    "instrument=harp,note=21,powered=false": {
+      "model": "minecraft:block/gothic_frescoes"
+    },
+    "instrument=harp,note=22,powered=false": {
+      "model": "minecraft:block/baroque_frescoes"
+    },
+    "instrument=harp,note=23,powered=false": {
+      "model": "minecraft:block/victorian_frescoes"
+    },
+    "instrument=harp,note=24,powered=false": {
+      "model": "minecraft:block/sepia_frescoes"
+    },
+    "instrument=banjo,note=0,powered=false": {
+      "model": "minecraft:block/red_gingham"
+    },
+    "instrument=banjo,note=1,powered=false": {
+      "model": "minecraft:block/golden_botanical_wallpaper"
+    },
+    "instrument=banjo,note=2,powered=false": {
+      "model": "minecraft:block/floral_wallpaper"
+    },
+    "instrument=banjo,note=3,powered=false": {
+      "model": "minecraft:block/night_sky_wallpaper"
+    },
+    "instrument=banjo,note=4,powered=false": {
+      "model": "minecraft:block/red_quilted_fabric"
+    },
+    "instrument=banjo,note=5,powered=false": {
+      "model": "minecraft:block/blue_quilted_fabric"
+    },
+    "instrument=banjo,note=6,powered=false": {
+      "model": "minecraft:block/black_quilted_fabric"
+    },
+    "instrument=banjo,note=7,powered=false": {
+      "model": "minecraft:block/gray_quilted_fabric"
+    },
+    "instrument=banjo,note=8,powered=false": {
+      "model": "minecraft:block/light_brown_quilted_fabric"
+    },
+    "instrument=banjo,note=9,powered=false": {
+      "model": "minecraft:block/basketweave_flooring"
+    },
+    "instrument=banjo,note=10,powered=false": {
+      "model": "minecraft:block/aged_vintage_wallpaper"
+    },
+    "instrument=banjo,note=11,powered=false": {
+      "model": "minecraft:block/white_vintage_wallpaper"
+    },
+    "instrument=banjo,note=12,powered=false": {
+      "model": "minecraft:block/roses_vintage_wallpaper"
+    },
+    "instrument=banjo,note=13,powered=false": {
+      "model": "minecraft:block/boho_chic_wallpaper"
+    },
+    "instrument=banjo,note=14,powered=false": {
+      "model": "minecraft:block/art_deco_wallpaper"
+    },
+    "instrument=banjo,note=15,powered=false": {
+      "model": "minecraft:block/red_granite"
+    },
+    "instrument=banjo,note=16,powered=false": {
+      "model": "minecraft:block/rustic_planks"
+    },
+    "instrument=banjo,note=17,powered=false": {
+      "model": "minecraft:block/white_herringbone"
+    },
+    "instrument=banjo,note=18,powered=false": {
+      "model": "minecraft:block/concrete_road"
+    },
+    "instrument=banjo,note=19,powered=false": {
+      "model": "minecraft:block/gravel_road"
+    },
+    "instrument=banjo,note=20,powered=false": {
+      "model": "minecraft:block/aged_asphalt"
+    },
+    "instrument=banjo,note=21,powered=false": {
+      "model": "minecraft:block/cracked_asphalt"
+    },
+    "instrument=banjo,note=22,powered=false": {
+      "model": "minecraft:block/bright_white_marking"
+    },
+    "instrument=banjo,note=23,powered=false": {
+      "model": "minecraft:block/aged_white_marking"
+    },
+    "instrument=banjo,note=24,powered=false": {
+      "model": "minecraft:block/cracked_aged_asphalt"
+    },
+    "instrument=basedrum,note=0,powered=false": {
+      "model": "minecraft:block/rainbow_blocklight"
+    },
+    "instrument=basedrum,note=1,powered=false": {
+      "model": "minecraft:block/iridescent_blocklight"
+    },
+    "instrument=basedrum,note=2,powered=false": {
+      "model": "minecraft:block/red_blocklight"
+    },
+    "instrument=basedrum,note=3,powered=false": {
+      "model": "minecraft:block/red_2_blocklight"
+    },
+    "instrument=basedrum,note=4,powered=false": {
+      "model": "minecraft:block/red_3_blocklight"
+    },
+    "instrument=basedrum,note=5,powered=false": {
+      "model": "minecraft:block/purple_blocklight"
+    },
+    "instrument=basedrum,note=6,powered=false": {
+      "model": "minecraft:block/pink_blocklight"
+    },
+    "instrument=basedrum,note=7,powered=false": {
+      "model": "minecraft:block/green_blocklight"
+    },
+    "instrument=basedrum,note=8,powered=false": {
+      "model": "minecraft:block/lime_blocklight"
+    },
+    "instrument=basedrum,note=9,powered=false": {
+      "model": "minecraft:block/orange_blocklight"
+    },
+    "instrument=basedrum,note=10,powered=false": {
+      "model": "minecraft:block/cyan_blocklight"
+    },
+    "instrument=basedrum,note=11,powered=false": {
+      "model": "minecraft:block/light_blue_blocklight"
+    },
+    "instrument=basedrum,note=12,powered=false": {
+      "model": "minecraft:block/blue_blocklight"
+    },
+    "instrument=basedrum,note=13,powered=false": {
+      "model": "minecraft:block/magenta_blocklight"
+    },
+    "instrument=basedrum,note=14,powered=false": {
+      "model": "minecraft:block/graffiti1"
+    },
+    "instrument=basedrum,note=15,powered=false": {
+      "model": "minecraft:block/graffiti2"
+    },
+    "instrument=basedrum,note=16,powered=false": {
+      "model": "minecraft:block/graffiti3"
+    },
+    "instrument=basedrum,note=17,powered=false": {
+      "model": "minecraft:block/graffiti4"
+    },
+    "instrument=basedrum,note=18,powered=false": {
+      "model": "minecraft:block/graffiti5"
+    },
+    "instrument=basedrum,note=19,powered=false": {
+      "model": "minecraft:block/graffiti6"
+    },
+    "instrument=basedrum,note=20,powered=false": {
+      "model": "minecraft:block/graffiti7"
+    },
+    "instrument=basedrum,note=21,powered=false": {
+      "model": "minecraft:block/autumn_bricks"
+    },
+    "instrument=basedrum,note=22,powered=false": {
+      "model": "minecraft:block/burned_bricks"
+    },
+    "instrument=basedrum,note=23,powered=false": {
+      "model": "minecraft:block/light_blue_bricks"
+    },
+    "instrument=basedrum,note=24,powered=false": {
+      "model": "minecraft:block/pink_bricks"
+    },
+    "instrument=bass,note=0,powered=false": {
+      "model": "minecraft:block/smooth_quartz_ornament_long"
+    },
+    "instrument=bass,note=1,powered=false": {
+      "model": "minecraft:block/sandstone_ornament_long"
+    },
+    "instrument=bass,note=2,powered=false": {
+      "model": "minecraft:block/blackstone_ornament_long"
+    },
+    "instrument=bass,note=3,powered=false": {
+      "model": "minecraft:block/deepslate_ornament_long"
+    },
+    "instrument=bass,note=4,powered=false": {
+      "model": "minecraft:block/smooth_quartz_cornice_pillar"
+    },
+    "instrument=bass,note=5,powered=false": {
+      "model": "minecraft:block/sandstone_cornice_pillar"
+    },
+    "instrument=bass,note=6,powered=false": {
+      "model": "minecraft:block/blackstone_cornice_pillar"
+    },
+    "instrument=bass,note=7,powered=false": {
+      "model": "minecraft:block/deepslate_cornice_pillar"
+    },
+    "instrument=bass,note=8,powered=false": {
+      "model": "minecraft:block/antique_white_stone"
+    },
+    "instrument=bass,note=9,powered=false": {
+      "model": "minecraft:block/white_stone_bricks"
+    },
+    "instrument=bass,note=10,powered=false": {
+      "model": "minecraft:block/italian_white_stone"
+    },
+    "instrument=bass,note=11,powered=false": {
+      "model": "minecraft:block/white_stone_mural_bricks"
+    },
+    "instrument=bass,note=12,powered=false": {
+      "model": "minecraft:block/cream_limestone_bricks"
+    },
+    "instrument=bass,note=13,powered=false": {
+      "model": "minecraft:block/cream_limestone"
+    },
+    "instrument=bass,note=14,powered=false": {
+      "model": "minecraft:block/gray_beige_bricks"
+    },
+    "instrument=bass,note=15,powered=false": {
+      "model": "minecraft:block/aged_cream_limestone"
+    },
+    "instrument=bass,note=16,powered=false": {
+      "model": "minecraft:block/black_sandstone"
+    },
+    "instrument=bass,note=17,powered=false": {
+      "model": "minecraft:block/blackstone_paving"
+    },
+    "instrument=bass,note=18,powered=false": {
+      "model": "minecraft:block/aged_blackstone_bricks"
+    },
+    "instrument=bass,note=19,powered=false": {
+      "model": "minecraft:block/blackstone_pebbles"
+    },
+    "instrument=bass,note=20,powered=false": {
+      "model": "minecraft:block/deepslate_mud_bricks"
+    },
+    "instrument=bass,note=21,powered=false": {
+      "model": "minecraft:block/deepslate_old"
+    },
+    "instrument=bass,note=22,powered=false": {
+      "model": "minecraft:block/deepslate_brick_tiles"
+    },
+    "instrument=bass,note=23,powered=false": {
+      "model": "minecraft:block/deepslate_stone"
+    },
+    "instrument=bass,note=24,powered=false": {
+      "model": "minecraft:block/deepslate_marble"
+    },
+    "instrument=bell,note=0,powered=false": {
+      "model": "minecraft:block/light_blue_wall_concrete"
+    },
+    "instrument=bell,note=1,powered=false": {
+      "model": "minecraft:block/green_wall_concrete"
+    },
+    "instrument=bell,note=2,powered=false": {
+      "model": "minecraft:block/yellow_wall_concrete"
+    },
+    "instrument=bell,note=3,powered=false": {
+      "model": "minecraft:block/aqua_wall_concrete"
+    },
+    "instrument=bell,note=4,powered=false": {
+      "model": "minecraft:block/light_green_wall_concrete"
+    },
+    "instrument=bell,note=5,powered=false": {
+      "model": "minecraft:block/orange_wall_concrete"
+    },
+    "instrument=bell,note=6,powered=false": {
+      "model": "minecraft:block/old_red_wall_concrete"
+    },
+    "instrument=bell,note=7,powered=false": {
+      "model": "minecraft:block/pink_wall_concrete"
+    },
+    "instrument=bell,note=8,powered=false": {
+      "model": "minecraft:block/violet_wall_concrete"
+    },
+    "instrument=bell,note=9,powered=false": {
+      "model": "minecraft:block/saturated_purple_wall_concrete"
+    },
+    "instrument=bell,note=10,powered=false": {
+      "model": "minecraft:block/honey_wall_concrete"
+    },
+    "instrument=bell,note=11,powered=false": {
+      "model": "minecraft:block/gold_wall_concrete"
+    },
+    "instrument=bell,note=12,powered=false": {
+      "model": "minecraft:block/lime_wall_concrete"
+    },
+    "instrument=bell,note=13,powered=false": {
+      "model": "minecraft:block/light_orange_wall_concrete"
+    },
+    "instrument=bell,note=14,powered=false": {
+      "model": "minecraft:block/aged_purple_wall_concrete"
+    },
+    "instrument=bell,note=15,powered=false": {
+      "model": "minecraft:block/navy_wall_concrete"
+    },
+    "instrument=bell,note=16,powered=false": {
+      "model": "minecraft:block/burny_wall_concrete"
+    },
+    "instrument=bell,note=17,powered=false": {
+      "model": "minecraft:block/water_wall_concrete"
+    },
+    "instrument=bell,note=18,powered=false": {
+      "model": "minecraft:block/rose_wall_concrete"
+    },
+    "instrument=bell,note=19,powered=false": {
+      "model": "minecraft:block/redange_wall_concrete"
+    },
+    "instrument=bell,note=20,powered=false": {
+      "model": "minecraft:block/aged_orange_wall_concrete"
+    },
+    "instrument=bell,note=21,powered=false": {
+      "model": "minecraft:block/sandstone_wall_concrete"
+    },
+    "instrument=bell,note=22,powered=false": {
+      "model": "minecraft:block/deepslate_wall_concrete"
+    },
+    "instrument=bell,note=23,powered=false": {
+      "model": "minecraft:block/quartz_wall_concrete"
+    },
+    "instrument=bell,note=24,powered=false": {
+      "model": "minecraft:block/blackstone_wall_concrete"
+    },
+    "instrument=bit,note=0,powered=false": {
+      "model": "minecraft:block/fractured_pavement"
+    },
+    "instrument=bit,note=1,powered=false": {
+      "model": "minecraft:block/marble_pavement"
+    },
+    "instrument=bit,note=2,powered=false": {
+      "model": "minecraft:block/brown_pavement"
+    },
+    "instrument=bit,note=3,powered=false": {
+      "model": "minecraft:block/gray_pavement"
+    },
+    "instrument=bit,note=4,powered=false": {
+      "model": "minecraft:block/black_pavement"
+    },
+    "instrument=bit,note=5,powered=false": {
+      "model": "minecraft:block/pattern_pavement"
+    },
+    "instrument=bit,note=6,powered=false": {
+      "model": "minecraft:block/pattern_pavement_2"
+    },
+    "instrument=bit,note=7,powered=false": {
+      "model": "minecraft:block/mossy_pavement"
+    },
+    "instrument=bit,note=8,powered=false": {
+      "model": "minecraft:block/stone_pavement"
+    },
+    "instrument=bit,note=9,powered=false": {
+      "model": "minecraft:block/grass_pavement"
+    },
+    "instrument=bit,note=10,powered=false": {
+      "model": "minecraft:block/wood_pavement"
+    },
+    "instrument=bit,note=11,powered=false": {
+      "model": "minecraft:block/sandstone_cornice"
+    },
+    "instrument=bit,note=12,powered=false": {
+      "model": "minecraft:block/sandstone_cornice2"
+    },
+    "instrument=bit,note=13,powered=false": {
+      "model": "minecraft:block/quartz_cornice"
+    },
+    "instrument=bit,note=14,powered=false": {
+      "model": "minecraft:block/quartz_cornice2"
+    },
+    "instrument=bit,note=15,powered=false": {
+      "model": "minecraft:block/deepslate_cornice"
+    },
+    "instrument=bit,note=16,powered=false": {
+      "model": "minecraft:block/deepslate_cornice2"
+    },
+    "instrument=bit,note=17,powered=false": {
+      "model": "minecraft:block/deepslate_cornice3"
+    },
+    "instrument=bit,note=18,powered=false": {
+      "model": "minecraft:block/blackstone_cornice"
+    },
+    "instrument=bit,note=19,powered=false": {
+      "model": "minecraft:block/blackstone_cornice2"
+    },
+    "instrument=bit,note=20,powered=false": {
+      "model": "minecraft:block/blackstone_cornice3"
+    },
+    "instrument=bit,note=21,powered=false": {
+      "model": "minecraft:block/cut_copper_base"
+    },
+    "instrument=bit,note=22,powered=false": {
+      "model": "minecraft:block/exposed_cut_copper_base"
+    },
+    "instrument=bit,note=23,powered=false": {
+      "model": "minecraft:block/weathered_cut_copper_base"
+    },
+    "instrument=bit,note=24,powered=false": {
+      "model": "minecraft:block/oxidized_cut_copper_base"
+    },
+    "instrument=chime,note=0,powered=false": {
+      "model": "minecraft:block/sandstone_greek_pattern"
+    },
+    "instrument=chime,note=1,powered=false": {
+      "model": "minecraft:block/sandstone_waves_pattern"
+    },
+    "instrument=chime,note=2,powered=false": {
+      "model": "minecraft:block/sandstone_indian_pattern"
+    },
+    "instrument=chime,note=3,powered=false": {
+      "model": "minecraft:block/sandstone_persian_pattern"
+    },
+    "instrument=chime,note=4,powered=false": {
+      "model": "minecraft:block/sandstone_chinese_pattern"
+    },
+    "instrument=chime,note=5,powered=false": {
+      "model": "minecraft:block/sandstone_moroccan_pattern"
+    },
+    "instrument=chime,note=6,powered=false": {
+      "model": "minecraft:block/quartz_greek_pattern"
+    },
+    "instrument=chime,note=7,powered=false": {
+      "model": "minecraft:block/quartz_waves_pattern"
+    },
+    "instrument=chime,note=8,powered=false": {
+      "model": "minecraft:block/quartz_indian_pattern"
+    },
+    "instrument=chime,note=9,powered=false": {
+      "model": "minecraft:block/quartz_persian_pattern"
+    },
+    "instrument=chime,note=10,powered=false": {
+      "model": "minecraft:block/quartz_chinese_pattern"
+    },
+    "instrument=chime,note=11,powered=false": {
+      "model": "minecraft:block/quartz_moroccan_pattern"
+    },
+    "instrument=chime,note=12,powered=false": {
+      "model": "minecraft:block/deepslate_bricks_greek_pattern"
+    },
+    "instrument=chime,note=13,powered=false": {
+      "model": "minecraft:block/deepslate_bricks_waves_pattern"
+    },
+    "instrument=chime,note=14,powered=false": {
+      "model": "minecraft:block/deepslate_bricks_indian_pattern"
+    },
+    "instrument=chime,note=15,powered=false": {
+      "model": "minecraft:block/deepslate_bricks_persian_pattern"
+    },
+    "instrument=chime,note=16,powered=false": {
+      "model": "minecraft:block/deepslate_bricks_chinese_pattern"
+    },
+    "instrument=chime,note=17,powered=false": {
+      "model": "minecraft:block/deepslate_bricks_moroccan_pattern"
+    },
+    "instrument=chime,note=18,powered=false": {
+      "model": "minecraft:block/blackstone_greek_pattern"
+    },
+    "instrument=chime,note=19,powered=false": {
+      "model": "minecraft:block/blackstone_waves_pattern"
+    },
+    "instrument=chime,note=20,powered=false": {
+      "model": "minecraft:block/blackstone_indian_pattern"
+    },
+    "instrument=chime,note=21,powered=false": {
+      "model": "minecraft:block/blackstone_persian_pattern"
+    },
+    "instrument=chime,note=22,powered=false": {
+      "model": "minecraft:block/blackstone_chinese_pattern"
+    },
+    "instrument=chime,note=23,powered=false": {
+      "model": "minecraft:block/blackstone_moroccan_pattern"
+    },
+    "instrument=guitar,note=0,powered=false": {
+      "model": "minecraft:block/fresh_hewn"
+    },
+    "instrument=guitar,note=1,powered=false": {
+      "model": "minecraft:block/weathered_chink"
+    },
+    "instrument=guitar,note=2,powered=false": {
+      "model": "minecraft:block/aged_timber"
+    },
+    "instrument=guitar,note=3,powered=false": {
+      "model": "minecraft:block/washed_resin"
+    },
+    "instrument=guitar,note=4,powered=false": {
+      "model": "minecraft:block/medieval_bricks"
+    },
+    "instrument=guitar,note=5,powered=false": {
+      "model": "minecraft:block/fired_bricks"
+    },
+    "instrument=guitar,note=6,powered=false": {
+      "model": "minecraft:block/sage_wainscot_wall"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/luxury_chair"
+        
+    },
+    "when": "Luxury: Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_hammock"
+        
+    },
+    "when": "Outdoor: Hammock"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/allmodern"
+        
+    },
+    "when": "Parisian: All Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/franceandson"
+        
+    },
+    "when": "Parisian: France Son"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/jonathanadler"
+        
+    },
+    "when": "Parisian: Adler Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rustic_chair"
+        
+    },
+    "when": "Rustic: Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scand_chair"
+        
+    },
+    "when": "Scand: Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/birch_classic_chair"
+        
+    },
+    "when": "Birch Classic Outdoor Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dark_oak_classic_chair"
+        
+    },
+    "when": "Dark Oak Classic Outdoor Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/oak_classic_chair"
+        
+    },
+    "when": "Oak Classic Outdoor Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spruce_classic_outdoor_chair"
+        
+    },
+    "when": "Spruce Classic Outdoor Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/elegance_lounge_chair"
+        
+    },
+    "when": "Elegance: Lounge Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/patio_chair"
+        
+    },
+    "when": "Patio: Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/modern_chair"
+        
+    },
+    "when": "Modern Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nl_chair"
+        
+    },
+    "when": "Nightlife: Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/outdoor_chair"
+        
+    },
+    "when": "Outdoor Chair"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rg_chair"
+        
+    },
+    "when": "Rosegold: Chair"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/dead_tube_coral_fan"
+        }
+    }
+}

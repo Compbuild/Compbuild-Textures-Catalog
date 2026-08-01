@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/thin_block",
+	"textures": {
+		"0": "block/quartz_color_block",
+		"particle": "block/quartz_color_block"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 12],
+			"to": [16, 10.5, 16],
+			"rotation": {"angle": -45, "axis": "z", "origin": [15, 0, 13]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "waxed_exposed_copper_trapdoor_top",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "waxed_weathered_copper_trapdoor_bottom",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "waxed_weathered_copper_trapdoor_top",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "waxed_copper_trapdoor_bottom",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [0]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

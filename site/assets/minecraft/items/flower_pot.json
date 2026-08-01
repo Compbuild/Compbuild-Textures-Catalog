@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Gold Potion Shaped Cup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/gold_potion_shaped_cup"
+        }
+      },
+      {
+        "when": "Red Stack Spheres",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/redstackspheres"
+        }
+      },
+      {
+        "when": "Luxury: Plant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/luxury_plant"
+        }
+      },
+      {
+        "when": "Parisian: Bouquet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parisian_bouquet"
+        }
+      },
+      {
+        "when": "Rustic: Plant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rustic_plant"
+        }
+      },
+      {
+        "when": "Scand: Plant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/scand_plant"
+        }
+      },
+      {
+        "when": "Scand: Small Plant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/scand_small_plant"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/flower_pot"
+    }
+  }
+}

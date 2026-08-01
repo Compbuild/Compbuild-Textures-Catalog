@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/logs"
+        
+    },
+    "when": "Stack of Logs"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/log_pile"
+        
+    },
+    "when": "Pile of Logs"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/oak_log"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fins"
+        
+    },
+    "when": "Diving Fins"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/scuba_tank"
+        
+    },
+    "when": "Scuba Tank"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/water_bucket"
+        }
+    }
+}

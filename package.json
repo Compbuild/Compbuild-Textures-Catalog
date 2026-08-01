@@ -1,0 +1,25 @@
+{
+  "name": "compbuild-textures-catalog",
+  "version": "1.0.0",
+  "description": "Online catalog of the Compbuild Textures resource pack — 3D model previews, CTM demos, custom item browser",
+  "scripts": {
+    "build": "node tools/build-manifest.mjs",
+    "bundle": "esbuild site-src/app.js --bundle --format=iife --minify --outfile=site/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compbuild/compbuild-textures-catalog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compbuild/compbuild-textures-catalog/issues"
+  },
+  "homepage": "https://github.com/compbuild/compbuild-textures-catalog#readme",
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "playwright": "1.49",
+    "three": "^0.170.0"
+  }
+}

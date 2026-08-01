@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "waterlogged=true": {
+      "model": "minecraft:block/water_horn_coral"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/grill"
+        
+    },
+    "when": "Grill"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/mounted_stove"
+        
+    },
+    "when": "Mounted Stove"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/furnace"
+        }
+    }
+}

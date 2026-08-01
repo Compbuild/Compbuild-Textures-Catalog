@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/oxidized_chiseled_copper" },
+            { "model": "block/oxidized_chiseled_copper", "y": 180 }
+        ]
+    }
+}

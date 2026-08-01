@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cross_grave"
+        
+    },
+    "when": "Halloween: Cross Grave"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/ghost"
+        
+    },
+    "when": "Halloween: Ghost"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/skeleton"
+        
+    },
+    "when": "Halloween: Skeleton"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/spider"
+        
+    },
+    "when": "Halloween: Spider"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/witch_hat"
+        
+    },
+    "when": "Halloween: Witch Hat"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:block/pumpkin"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/white_clothing_rack"
+        
+    },
+    "when": "White Clothing Rack"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/honeycomb"
+        }
+    }
+}

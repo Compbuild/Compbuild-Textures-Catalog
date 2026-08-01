@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/crop",
+	"textures": {
+		"crop": "block/nether_wart_stage0"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [0, 16, 22],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#crop"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#crop"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [16, 0, 0],
+			"to": [16, 16, 22],
+			"rotation": {"angle": -45, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#crop"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#crop"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#crop"}
+			}
+		}
+	]
+}

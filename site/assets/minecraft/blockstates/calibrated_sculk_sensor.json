@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "power=0": {
+      "model": "minecraft:block/smooth_quartz_ornament"
+    },
+    "power=1": {
+      "model": "minecraft:block/sandstone_ornament"
+    },
+    "power=2": {
+      "model": "minecraft:block/blackstone_ornament"
+    },
+    "power=3": {
+      "model": "minecraft:block/deepslate_bricks_ornament"
+    },
+    "power=4": {
+      "model": "minecraft:block/end_stone_ornament"
+    },
+    "power=5": {
+      "model": "minecraft:block/horizontal_smooth_quartz_ornament"
+    },
+    "power=6": {
+      "model": "minecraft:block/horizontal_sandstone_ornament"
+    },
+    "power=7": {
+      "model": "minecraft:block/horizontal_blackstone_ornament"
+    },
+    "power=8": {
+      "model": "minecraft:block/mixed_cobble"
+    },
+    "power=9": {
+      "model": "minecraft:block/old_spanish_roof"
+    },
+    "power=10": {
+      "model": "minecraft:block/metal_roof"
+    },
+    "power=11": {
+      "model": "minecraft:block/cyan_container"
+    },
+    "power=12": {
+      "model": "minecraft:block/green_container"
+    },
+    "power=13": {
+      "model": "minecraft:block/gray_container"
+    },
+    "power=14": {
+      "model": "minecraft:block/rusted_container"
+    },
+    "power=15": {
+      "model": "minecraft:block/yellow_container"
+    }
+  }
+}

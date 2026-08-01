@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "powered=true": [
+      {"model": "minecraft:block/rocks"},
+      {"model": "minecraft:block/rocks2"},
+      {"model": "minecraft:block/rocks3"},
+      {"model": "minecraft:block/rocks4"},
+      {"model": "minecraft:block/rocks5"},
+      {"model": "minecraft:block/rocks6"},
+      {"model": "minecraft:block/rocks7"},
+      {"model": "minecraft:block/rocks8"}
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/birthday_cake"
+        
+    },
+    "when": "Birthday Cake"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/flies"
+        
+    },
+    "when": "Flies"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tiramisu"
+        
+    },
+    "when": "Tiramisu"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/trash_bag"
+        
+    },
+    "when": "Trash Bag"
+},{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/trash_bags_two"
+        
+    },
+    "when": "Two Trash Bags"
+}
+        ],
+        "fallback": {
+            "type":"minecraft:model","model":"minecraft:item/cake"
+        }
+    }
+}
